@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
+    "start": "tsc && node --inspect dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,9 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "js-sha1": "^0.6.0",
+    "request": "^2.88.2"
   }
 }
