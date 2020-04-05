@@ -1,0 +1,28 @@
+{
+  "name": "caesar_cipher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatrizrezener/caesar_cipher.git"
+  },
+  "author": "Beatriz Rezener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatrizrezener/caesar_cipher/issues"
+  },
+  "homepage": "https://github.com/beatrizrezener/caesar_cipher#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.4",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

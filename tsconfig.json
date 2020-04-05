@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs", // Specifies the module code generation method.
+      "esModuleInterop": true,
+      "target": "es6", // Specifies the output language level.
+      "moduleResolution": "node", // This helps the compiler figure out what an import refers to.
+      "sourceMap": true,
+      "outDir": "dist" // This is the location to output .js files after transpilation.
+    },
+    "lib": ["es2015"]
+  }
+
+  // To learn more about it: https://www.typescriptlang.org/docs/handbook/compiler-options.html
